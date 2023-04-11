@@ -1,0 +1,78 @@
+.content-div {
+  background-color: white;
+  padding: 3rem 1.5rem;
+  width: 95%;
+  margin: 0 auto;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 3rem;
+}
+
+.item{
+  width: 30%;
+}
+.item input {
+  border: solid 1px hsl(0, 0%, 86%);
+  padding: 0.7rem 0.5rem;
+  border-radius: 0.2rem;
+  color:black;
+  font-weight: 700;
+}
+.item-warning {
+  border: solid 1px red;
+  padding: 0.7rem 0.5rem;
+  border-radius: 0.2rem;
+  color:black;
+  font-weight: 700;
+}
+
+.item label {
+  color: hsl(0, 1%, 44%);
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+}
+.enter-btn {
+  background-color: hsl(259, 100%, 65%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  right: 1.5px;
+  bottom: -1.5rem;
+}
+.enter-btn:hover {
+  background-color:black;
+  transition: all 0.5s;;
+}
+.arrow {
+  width: 25px;
+}
+.calculate-div {
+  position:relative;
+  padding: 0 3%;
+  margin: 3rem 0;
+}
+.result-div {
+  padding: 0 3%;
+}
+.result-div h1 {
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 800;
+}
+.purple {
+  color: hsl(259, 100%, 65%);
+}
+.warning-text {
+  color:red;
+  font-style: italic;
+  font-size: 0.6rem;
+  padding-top: 0.5rem;
+}
+@media screen and (min-width: 500px) {
+  .warning-text {
+    font-size: 0.8rem;
+  }
+}
